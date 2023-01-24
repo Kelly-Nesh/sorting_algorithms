@@ -10,7 +10,7 @@
 
 void bubble_sort(int *array, size_t size)
 {
-	size_t i, j, cnt, swap;
+	size_t i, j, swap;
 
 	for (i = 0; i < size; i++)
 	{
@@ -24,6 +24,5 @@ void bubble_sort(int *array, size_t size)
 				print_array(array, size);
 			}
 		}
-	cnt--;
 	}
 }
