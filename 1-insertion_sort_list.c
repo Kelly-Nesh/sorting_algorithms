@@ -1,5 +1,6 @@
 #include "sort.h"
 
+
 /**
  * node_swap - Swap two nodes in a listint_t doubly-linked list.
  * @h: A pointer to the head of the doubly-linked list.
@@ -48,5 +49,3 @@ void insertion_sort_list(listint_t **list)
 		}
 	}
 }
-
- 
